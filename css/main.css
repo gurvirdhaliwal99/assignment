@@ -86,83 +86,166 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   
+   
+@media screen and (min-width: 60em){
 
-div,
-header,
-footer,
-section {
-  border: 1px solid #ccc;
-  min-height: 4rem;
+  div,
+  header,
+  footer,
+  section {
+    border: 1px solid #ccc;
+    min-height: 4rem;
+  }
+
+  h2,h5,h3,p{
+    text-align: center;
+  }
+
+  .column {
+    background-color: rgb(218, 236, 166);
+    margin: 1rem;
+  }
+
+  .ourname {
+    background-color: rgb(218, 236, 166);
+    margin: 1rem;
+  }
+
+  .info {
+    background-color: rgb(218, 236, 166);
+    margin: 1rem;
+  }
+    
+  .late {
+    background-color: rgb(218, 236, 166);
+    margin: 1rem;
+  }
+
+  .fin {
+    background-color: rgb(218, 236, 166);
+    margin: 1rem;
+  }
+
+  .mediaIcons {
+    background-color: rgb(218, 236, 166);
+    margin: 1rem;
+  }
+
+  .row {
+    display: grid;
+    width: 85vw;
+    min-width: 60rem;
+    max-width: 85rem;
+    margin: 0 auto;
+  }
+    
+  .col-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .col-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+    
+  .col-5 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+    
+  .col-1-2 {
+    grid-template-columns: 1fr 2fr;
+  }
+    
+  .row-span {
+    grid-column-start: 1;
+    grid-column-end: -1;
+  }
+    
+  .sub-row {
+    display: grid;
+  }
+
 }
 
-h2,h5{
-  text-align: center;
-}
+@media screen and (max-width: 59.9em){
 
-.info {
-  background-color: rgb(218, 236, 166);
-  margin: 1rem;
-}
-   
-.late {
-  background-color: rgb(218, 236, 166);
-  margin: 1rem;
-}
+  div,
+  header,
+  footer,
+  section {
+    border: 1px solid #ccc;
+    min-height: 4rem;
+  }
 
-.fin {
-  background-color: rgb(218, 236, 166);
-  margin: 1rem;
-}
+  h2,h5,h3,p{
+    text-align: center;
+  }
 
-.row {
-  display: grid;
-  width: 85vw;
-  min-width: 60rem;
-  max-width: 85rem;
-  margin: 0 auto;
-}
-   
-.col-2 {
-  grid-template-columns: 1fr 1fr;
-}
-   
-.col-3 {
-  grid-template-columns: repeat(3, 1fr);
-}
-   
-.col-4 {
-  grid-template-columns: repeat(4, 1fr);
-}
-   
-.col-5 {
-  grid-template-columns: repeat(5, 1fr);
-}
-   
-.col-6 {
-  grid-template-columns: repeat(6, 1fr);
-}
-   
-.col-7 {
-  grid-template-columns: repeat(7, 1fr);
-}
-   
-.col-8 {
-  grid-template-columns: repeat(8, 1fr);
-}
-   
-.col-1-2 {
-  grid-template-columns: 1fr 2fr;
-}
-   
-.row-span {
-  grid-column-start: 1;
-  grid-column-end: -1;
-}
-   
-.sub-row {
-  display: grid;
-}
+  .column {
+    background-color: rgb(218, 236, 166);
+    margin: 1rem;
+  }
 
+  .ourname {
+    background-color: rgb(218, 236, 166);
+    margin: 1rem;
+  }
+
+  .info {
+    background-color: rgb(218, 236, 166);
+    margin: 1rem;
+  }
+    
+  .late {
+    background-color: rgb(218, 236, 166);
+    margin: 1rem;
+  }
+
+  .fin {
+    background-color: rgb(218, 236, 166);
+    margin: 1rem;
+  }
+
+  .mediaIcons {
+    background-color: rgb(218, 236, 166);
+    margin: 1rem;
+  }
+
+  .row {
+    display: grid;
+    width: 85vw;
+    min-width: 25rem;
+    max-width: 44rem;
+    margin: 0 auto;
+  }
+    
+  .col-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .col-4 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+    
+  .col-5 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+    
+  .col-1-2 {
+    grid-template-columns: 1fr 2fr;
+  }
+    
+  .row-span {
+    grid-column-start: 1;
+    grid-column-end: -1;
+  }
+    
+  .sub-row {
+    display: grid;
+  }
+
+
+}
    
 /* ==========================================================================
    Helper classes
